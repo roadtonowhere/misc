@@ -2,7 +2,7 @@ import pytest
 import urllib2
 import json
 
-path = "http://ec2-52-35-241-91.us-west-2.compute.amazonaws.com:5000/api/fibonacci/"
+path = "http://ec2-52-33-166-73.us-west-2.compute.amazonaws.com:5000/api/fibonacci/"
 
 def test_inputs():
     inputs = [0,1,2,3,4]
